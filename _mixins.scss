@@ -1,0 +1,20 @@
+@mixin T () {
+    border-color: solid black;
+	background-color: white; 
+    margin: 15px;
+    width: 361px;
+    height: 300px;
+    top: -195px;
+    left: -583px;
+}
+
+@mixin text () {
+                width: 240px;
+                height: 300px;
+                font-family: Roboto;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 11.72px;
+                text-align: left;
+                color: rgba(138, 135, 135, 1);
+}
